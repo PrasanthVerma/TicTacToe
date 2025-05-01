@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #171738;
+    background-color: #000000;
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -17,10 +17,10 @@ main{
 }
 
 h1 {
-    color: rgb(235, 235, 15);
+    color: white;
     text-align: center;
     text-decoration: underline;
-    text-shadow: 0px 0px 3px white, 0px 0px 3px yellow;
+    text-shadow: 0px 0px 3px rgba(167, 164, 164, 0.678), 0px 0px 3px ;
     align-self: flex-start;
     justify-self: center;
     position: absolute
@@ -45,20 +45,20 @@ h1 {
     justify-self: center;
     height: 170px;
     width: 170px;
-    background-color: #7D5BA6;
+    background-color: #FFFFFC;
     border-radius: 10px;
     font-size: 2em;
-    color: rgb(235, 235, 15);
+    color: #000000;
 }
 
 #reset-btn{
     position: absolute;
     bottom: 0%;
     padding: 1rem 2.5rem;
-    background-color: #FFC857;
+    background-color: #FFFFFC;
     font-size: 1rem;
-    stroke: black;
-    color: white;
+    stroke: whitesmoke;
+    color: black;
     align-self: unset;
     justify-self: anchor-center
 
@@ -66,7 +66,7 @@ h1 {
 }
 #new-btn{
     padding: 10px 25px;
-    background-color: #FFC857;
+    background-color: #FFFFFC;
     font-size: 25px;
     stroke: black;
     color: white
