@@ -43,8 +43,8 @@ h1 {
 .box {
     /* border: 2px solid white ; */
     justify-self: center;
-    height: 100%;
-    width: 70%;
+    height: 170px;
+    width: 170px;
     background-color: #7D5BA6;
     border-radius: 10px;
     font-size: 2em;
@@ -78,4 +78,14 @@ h1 {
 }
 .hide{
     display: none;
+}
+
+@media (max-width: 650px)  {
+    .box{
+        height: 70px;
+        width: 80px;
+    }
+    #msg{
+        font-size: smaller
+    }
 }
